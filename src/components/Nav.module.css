@@ -1,0 +1,26 @@
+/* Navigation styles */
+.nav {
+  @apply flex bg-[#fff] border-b-[1px] border-[#e5e5e5] justify-between z-10;
+}
+.nav .brand {
+  @apply flex justify-center items-center;
+}
+.nav .brand img {
+  @apply w-8 mr-[10px];
+}
+.nav .brand h3 {
+  @apply text-lg leading-5 font-bold;
+}
+.nav ul li {
+  @apply font-semibold;
+}
+.nav ul:first-child {
+  @apply ml-7;
+}
+.nav ul {
+  @apply w-1/2 h-[60px] flex justify-between items-center list-none;
+}
+/* Account styles */
+.account {
+  @apply w-1/2 flex justify-end items-center mr-8 text-sm gap-2;
+}
